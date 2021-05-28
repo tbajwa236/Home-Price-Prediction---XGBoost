@@ -1,4 +1,4 @@
-# Home-Price-Prediction---Regression
+# Home-Price-Prediction-Regression
 The project includes the following:
 1. Exploratory data analysis
 2. Missing value treatment
