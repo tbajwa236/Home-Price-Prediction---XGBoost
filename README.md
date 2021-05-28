@@ -1,2 +1,11 @@
 # Home-Price-Prediction---Regression
-The dataset is taken from a Kaggle competition. After some EDA, missing value treatment, dummy variable encoding and feature engineering, all the variables were statistically analyzed using statsmodels module. This step  of statistical data exploration helped in determining that our dataset was much more suited to a non-linear approach. XGBoost regressor (non linear approach) was used and optimized to return an r^2 value of 90.04% and mean error of $1.40. Finally, all assumptions of linear regression were checked to make sure the residuals are normally distributed, homoskedastic, have a mean of zero and show no signs of autocorrelation.
+The project includes the following:
+1. Exploratory data analysis
+2. Missing value treatment
+3. Encoding dummy variables
+4. Skew correction 
+5. Feature engineering
+6. Statistical exploration of each varaible using Statsmodels OLS regression summary
+7. XGBoost tree based ensemble model used to predict house prices
+8. Optimization of XGBoost regressor
+9. Verification that residuals meet the assumption of regression
